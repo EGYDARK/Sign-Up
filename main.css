@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  min-height: 1000px;
+  overflow: hidden;
+  background: linear-gradient(#000000a4,#172830b7,#0a0936cb);
+}
+:focus {
+  color: hsl(0deg 0% 60%);
+}
+.container {
+  height: 1000px;
+}
+.container .content{
+  position: relative;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%,-50%);
+}
+.container .page {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.container .page .page-content {
+  border: 30px solid hsl(207, 95%, 57%);
+  width: fit-content;
+  padding: 50px;
+  margin-top: 200px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 30px 5px 50px #ffffff44;
+}
+.container .page .page-content h2 {
+  position: relative;
+  top: -30px;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.container  .page-content .form {
+  position: relative;
+  color: hsl(0deg 0% 60%);
+}
+.container  .page-content .form input {
+  border: none;
+  outline: none;
+  display: block;
+  padding: 20px 30px;
+  font-size: 18px;
+  border-bottom: 1px solid #a7a7a75d;
+  transition: 0.3s;
+}
+.container  .page-content .form input:focus::placeholder{
+  opacity: 0;
+}
+.container  .page-content .form i {
+  position: absolute;
+  left: 10px;
+  transform: translateX(-50%);
+  
+}
+.container  .page-content .form i:first-child {
+  top: 22px;
+}
+.container  .page-content .form i:nth-child(3) {
+  top: 34%;
+}  
+.container  .page-content .form i:nth-child(5) {
+  top: 59%;
+}
+.container  .page-content .form i:nth-child(7) {
+  top: 84%;
+}
+.container  .page-content .btn {
+  background-color: hsl(206.57deg 89.74% 54.12%);
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 4px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container  .page-content .btn:hover {
+  background-color: hsl(207, 78%, 46%);
+}
+.container  .page-content .account {
+  margin-top: 20px;
+  color: hsl(0, 0%, 43%);
+  font-family: sans-serif;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed hsla(0, 0%, 58%, 0.425);
+}
+.container  .page-content .account span {
+  margin-left: 5px;
+  color: hsl(207, 90%, 51%);
+  font-weight: bold;
+}
+.container .page-content .regist {
+  margin-top: 20px;
+}
+.container .page-content .regist h3 {
+  color: hsl(0, 0%, 43%);
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.container .page-content .regist .social {
+  margin-top: 15px;
+}
+.container .page-content .regist .social i {
+  margin-right: 5px;
+  text-align: center;
+  color: white;
+}
+.container .page-content .regist .social i:first-child {
+  background-color: hsl(220.65deg 44.08% 41.37%);
+  padding: 20px;
+  border-radius: 50%;
+}
+.container .page-content .regist .social i:nth-child(2) {
+  background-color: hsl(202.82deg 89.12% 53.14%);
+  padding: 20px;
+  border-radius: 50%;
+} 
+.container .page-content .regist .social i:nth-child(3) {
+  background-color: hsl(4.76deg 69.49% 53.73%);
+  padding: 20px;
+  border-radius: 50%;
+}
+
