@@ -64,18 +64,17 @@ body {
   position: absolute;
   left: 10px;
   transform: translateX(-50%);
-  
 }
 .container  .page-content .form i:first-child {
   top: 22px;
 }
-.container  .page-content .form i:nth-child(3) {
+.container  .page-content .form i:nth-of-type(2) {
   top: 34%;
 }  
-.container  .page-content .form i:nth-child(5) {
+.container  .page-content .form i:nth-of-type(3) {
   top: 59%;
 }
-.container  .page-content .form i:nth-child(7) {
+.container  .page-content .form i:nth-of-type(4) {
   top: 84%;
 }
 .container  .page-content .btn {
@@ -103,6 +102,7 @@ body {
   margin-left: 5px;
   color: hsl(207, 90%, 51%);
   font-weight: bold;
+  cursor: pointer;
 }
 .container .page-content .regist {
   margin-top: 20px;
@@ -113,24 +113,29 @@ body {
   font-size: 18px;
 }
 .container .page-content .regist .social {
-  margin-top: 15px;
+  margin-top: 35px;
 }
-.container .page-content .regist .social i {
+.container .page-content .regist .social a {
   margin-right: 5px;
-  text-align: center;
   color: white;
 }
-.container .page-content .regist .social i:first-child {
+.container  .page-content .regist .social  i {
+  transition: 0.3s;
+} 
+.container  .page-content .regist .social a:hover i {
+  transform: translateY(-10px);
+}
+.container .page-content .regist .social a:first-child {
   background-color: hsl(220.65deg 44.08% 41.37%);
   padding: 20px;
   border-radius: 50%;
 }
-.container .page-content .regist .social i:nth-child(2) {
+.container .page-content .regist .social a:nth-of-type(2) {
   background-color: hsl(202.82deg 89.12% 53.14%);
   padding: 20px;
   border-radius: 50%;
 } 
-.container .page-content .regist .social i:nth-child(3) {
+.container .page-content .regist .social a:nth-child(3) {
   background-color: hsl(4.76deg 69.49% 53.73%);
   padding: 20px;
   border-radius: 50%;
